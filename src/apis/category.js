@@ -7,3 +7,11 @@ export function getCategoryApi(id){
     }
   })
 }
+export const getCategoryFilterApi=(id)=>{
+  return request({
+    url:'/category/sub/filter',
+    params:{
+      id
+    }
+  })
+}

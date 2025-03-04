@@ -11,9 +11,11 @@ onMounted(()=>categoryStore.getCategory())
 </script>
 
 <template>
+  <LayoutFixed/>
   <LayoutNav />
   <LayoutHeader />
-  <RouterView />
+  <!--添加key，破坏复用，强制销毁重建-->
+  <!--<RouterView :key="$route.fullPath"/>-->
+  <RouterView/>
   <LayoutFooter />
-  <LayoutFixed/>
 </template>
