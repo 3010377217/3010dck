@@ -1,5 +1,5 @@
 <script setup>
-import GoodsItem from '../Home/componments/GoodsItem.vue';
+import GoodsItem from '../Home/components/GoodsItem.vue';
 import { useBanner } from './compasables/useBanner';
 import { useCategory } from './compasables/useCategory';
 

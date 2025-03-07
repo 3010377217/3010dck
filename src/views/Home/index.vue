@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import HomeBanner from './componments/HomeBanner.vue';
-import HomeContegory from './componments/HomeContegory.vue';
-import HomeHot from './componments/HomeHot.vue';
-import HomeNew from './componments/HomeNew.vue';
-import HomeProduct from './componments/HomeProduct.vue';
+import HomeBanner from './components/HomeBanner.vue';
+import HomeContegory from './components/HomeContegory.vue';
+import HomeHot from './components/HomeHot.vue';
+import HomeNew from './components/HomeNew.vue';
+import HomeProduct from './components/HomeProduct.vue';
 
 </script>
 
