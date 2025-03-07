@@ -13,15 +13,15 @@ const router = createRouter({
     component:Layout,
     children:[
       {
-        path:'/',
+        path:'',
         component:Home
       },
       {
-        path:'/category/:id',
+        path:'category/:id',
         component:Category
       },
       {
-        path:'/category/sub/:id',
+        path:'category/sub/:id',
         component:SubCategory
       },
       {

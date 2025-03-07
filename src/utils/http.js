@@ -1,9 +1,9 @@
-//axios的基本封
+//axios的基本封装
 import axios from "axios";
 
 const httpInstance=axios.create({
   baseURL:'http://pcapi-xiaotuxian-front-devtest.itheima.net',
-  timeout:5000
+  timeout:10000
 })
 
 // axios请求拦截器
