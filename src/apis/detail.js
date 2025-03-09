@@ -1,27 +1,3 @@
-import request from '@/utils/http'
-
-export const getDetail = (id) => {
-  return  request({
-    url:'/goods',
-    params:{
-      id
-    }
-  })
-}
-
-/**
- * 获取热榜商品
- * @param {Number} id - 商品id
- * @param {Number} type - 1代表24小时热销榜 2代表周热销榜
- * @param {Number} limit - 获取个数
- */
-export const getHotGoodsAPI = ({ id, type, limit = 3 }) => {
-  return request({
-    url:'/goods/hot',
-    params:{
-      id,
-      type,
-      limit
-    }
-  })
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b6a261417dd2f938dbe101e6e128a74a7f78a1b60af8fc60aa8824b4b743b891
+size 481
