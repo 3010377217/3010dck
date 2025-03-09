@@ -1,17 +1,3 @@
-
-
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
-import App from './App.vue'
-import router from './router'
-import '@/styles/common.scss'
-import {lazyPlugin} from '@/directives/index'
-//测试接口函数
-
-
-const app = createApp(App)
-
-app.use(createPinia())
-app.use(router)
-app.use(lazyPlugin)
-app.mount('#app')
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d46d55d2ce05ea1cb382dc463f93e94aba2598ff2fef090504ec6bb83094b4b
+size 405
