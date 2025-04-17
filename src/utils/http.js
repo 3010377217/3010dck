@@ -1,20 +1,3 @@
-//axios的基本封装
-import axios from "axios";
-
-const httpInstance=axios.create({
-  baseURL:'http://pcapi-xiaotuxian-front-devtest.itheima.net',
-  timeout:10000
-})
-
-// axios请求拦截器
-httpInstance.interceptors.request.use(config=>{
-  return config
-},e=>Promise.reject(e))
-
-  // axios响应式拦截器
-  httpInstance.interceptors.response.use(res => res.data,e=>{
-    return Promise.reject(e)
-  }
-)
-
-export default httpInstance
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f8c121c7da7c39b9bbbf53b7565e8f2a5fa89ece8eb444aac8203eadadef8e7
+size 1134
